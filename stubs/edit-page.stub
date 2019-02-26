@@ -1,0 +1,21 @@
+@extends('layouts.app')
+
+@section('content')
+
+<div class="col-md-8">
+    <div class="col-2">
+        <a class="text-center" href="{{:back}}">{{__('Back')}}</a>
+    </div>
+
+    <form action="{{:action}}" method="POST">
+    @method(":method")
+
+    {{csrf_field()}}
+
+    :fields_output
+
+        <button type="submit" class="btn btn-primary">{{__(':buttonLabel')}}</button>
+
+    </form>
+</div>
+@endsection

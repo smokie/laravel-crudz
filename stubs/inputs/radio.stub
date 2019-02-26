@@ -1,0 +1,4 @@
+<div class="custom-control custom-radio">
+  <input {{':value' == :v_placeholder ? 'checked="checked"' : ''}} type="radio" class="custom-control-input" value=":value" id=":value" name=":name">
+  <label class="custom-control-label" for=":value">{{__(":title")}}</label>
+</div>

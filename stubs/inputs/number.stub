@@ -1,0 +1,1 @@
+<input value="{{:value}}" placeholder=":title" id=":name" type="number" name=":name" class="form-control"/>

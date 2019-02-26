@@ -1,0 +1,1 @@
+<color value="{{:value}}" placeholder=":title" id=":name" type="text" name=":name" class="form-control"/>

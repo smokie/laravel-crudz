@@ -1,0 +1,6 @@
+<select id=":name" type="text" name=":name" class="form-control">
+    <option value="">:default_title</option>
+    @foreach(:options as $option)
+            <option {{$option->id === :value_placeholder ? 'selected="selected"' : ""}} value="{{$option->id}}">{{$option->:title_column}}</option>
+    @endforeach
+</select>

@@ -1,0 +1,22 @@
+{
+  "name": "taherodeh/laravel-crudz",
+  "description": "Generates CRUD views from DB and Model meta data",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Taher Odeh",
+      "email": "taher@aumix.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Smokie\\LaravelCrudz\\Tests\\": "tests/",
+      "Smokie\\LaravelCrudz\\": "src/"
+    }
+  },
+  "require-dev": {
+    "orchestra/testbench": "~3.7",
+    "phpunit/phpunit": "^7.0"
+  }
+}
