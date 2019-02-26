@@ -8,8 +8,8 @@
 
 function stub_path($path)
 {
-    $p = 'crudz/stubs/' . resource_path($path);
+    $p = resource_path('crudz/stubs/' . $path);
     return \Illuminate\Support\Facades\File::exists($p)
-        ? resource_path($p)
+        ? $p
         : __DIR__ . '/../stubs/' . $path;
 }
